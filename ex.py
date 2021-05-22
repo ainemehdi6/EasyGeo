@@ -1,6 +1,6 @@
 from tkinter import *
 from PIL import ImageTk,Image
-import deff,time
+import deff
 
 def raise_frame(frame):
     frame.tkraise()
@@ -38,11 +38,9 @@ label1.pack(side=TOP, anchor=NW)
 label_title = Label(f1, text="Bienvenue sur EasyGio",font=("Helvetica",42), bg='#e0dad6', fg='#001d26')
 label_title.pack(padx=60,pady=70)
 #main_button
-main_button = Button(f1, text="Démarer", width='10', font=("Helvetica",16), bg="#c972ad", fg="#FFFFFF",
+main_button = Button(f1, text="Démarrer", width='10',font=("Helvetica",16), bg="#c972ad", fg="#FFFFFF",
                     command=lambda:raise_frame(f2))
 main_button.pack(padx=30)
-
-
 #second_page
 #logo
 label1 = Label(f2,image=test,bg="#e0dad6")
@@ -135,7 +133,7 @@ fct1_input = Entry(f5,width=30)
 fct1_input.pack(pady=20,ipady=3)
 #execute_button
 exec_button = Button(f5, text="Executer", width='10', font=("Helvetica",16), bg="#c972ad", fg="#FFFFFF",
-                    command=lambda:[raise_frame(f6),deff.Execute_fct1(fct1_input.get())])
+                    command=lambda:[deff.Execute_fct1(fct1_input.get())])
 exec_button.pack(padx=30,pady=20)
 #footer_buttons
 left_button = Button(f5, text="Retourner", width='10', font=("Helvetica",16), bg="#64ffaa", fg="#FFFFFF",
@@ -190,14 +188,17 @@ f_label = Label(f52, text="Entrer la taille du sphére",font=("Helvetica",16), b
 f_label.pack()
 #input
 fct3_input = Entry(f52,width=30)
-fct3_input.pack(pady=20,ipady=3)
+fct3_input.pack(pady=10,ipady=3)
+CVar1 = IntVar()
+imageCheck= Checkbutton(f52,text="Executer le resultat 3D sous forme d'une image", variable = CVar1, font=("Helvetica",8), bg='#e0dad6')
+imageCheck.pack(pady=10)
 #execute_button
 exec_button = Button(f52, text="Executer", width='10', font=("Helvetica",16), bg="#c972ad", fg="#FFFFFF",
-                    command=lambda:[raise_frame(f52),deff.Execute_fct3(fct3_input.get())])
+                    command=lambda:[raise_frame(f52),deff.Execute_fct3(fct3_input.get(),CVar1.get())])
 exec_button.pack(padx=30)
 #spc
 spc = Label(f52, text="",bg='#e0dad6')
-spc.pack(pady=28)
+spc.pack(pady=18)
 #footer_buttons
 left_button = Button(f52, text="Retourner", width='10', font=("Helvetica",16), bg="#64ffaa", fg="#FFFFFF",
                     command=lambda:raise_frame(f4))
@@ -217,16 +218,19 @@ spc.pack(pady=30)
 #label
 f_label = Label(f53, text="Entrer la taille du cube",font=("Helvetica",16), bg='#e0dad6', fg='#001d26')
 f_label.pack()
-#input
+#inputs
 fct4_input = Entry(f53,width=30)
-fct4_input.pack(pady=20,ipady=3)
+fct4_input.pack(pady=10,ipady=3)
+CVar2 = IntVar()
+imageCheck= Checkbutton(f53,text="Executer le resultat 3D sous forme d'une image", variable = CVar2, font=("Helvetica",8), bg='#e0dad6')
+imageCheck.pack(pady=10)
 #execute_button
 exec_button = Button(f53, text="Executer", width='10', font=("Helvetica",16), bg="#c972ad", fg="#FFFFFF",
-                    command=lambda:[raise_frame(f53),deff.Execute_fct4(fct4_input.get())])
+                    command=lambda:[raise_frame(f53),deff.Execute_fct4(fct4_input.get(),CVar2.get())])
 exec_button.pack(padx=30)
 #spc
 spc = Label(f53, text="",bg='#e0dad6')
-spc.pack(pady=28)
+spc.pack(pady=18)
 #footer_buttons
 left_button = Button(f53, text="Retourner", width='10', font=("Helvetica",16), bg="#64ffaa", fg="#FFFFFF",
                     command=lambda:raise_frame(f4))
@@ -260,15 +264,16 @@ label1 = Label(f6,image=test,bg="#e0dad6")
 label1.image = test
 label1.pack(side=TOP, anchor=NW)
 #result_image
-res_img = Image.open("img/Dessin1.png")
-img = ImageTk.PhotoImage(res_img)
-label2 = Label(f6,image=img,bg="#ffffff")
-label2.image = test
+img = ImageTk.PhotoImage(Image.open("Dessin.png"))
+label2 = Label(f6, image=img, bg="#ffffff")
 label2.pack()
-#canvas = Canvas(f6, width = 300, height = 300,bg="#ffffff")
-#canvas.pack()
-#img = ImageTk.PhotoImage(Image.open("Dessin.png"))
-#canvas.create_image(20, 20, anchor=NW, image=img)
+
+#image = Image.open("Dessin.png") 
+#photo = ImageTk.PhotoImage(Image.open("Dessin.png")) 
+#canvas = Canvas(f6, width = Image.open("Dessin.png").size[0], height = Image.open("Dessin.png").size[1]) 
+#canvas.create_image(0,0, anchor = NW, image=ImageTk.PhotoImage(Image.open("Dessin.png")))
+#canvas.pack() 
+
 #spc
 spc = Label(f6, text="",bg='#e0dad6')
 spc.pack()

@@ -80,7 +80,7 @@ import three;
 unitsize(1cm);
 size(200);
 currentprojection=perspective(1/3,-1,1/2);
-real a=1;
+
 draw((0,0,0)--(a,0,0)--(a,a,0)--(0,a,0)--cycle,red);
 draw((0,0,0)--(0,0,a),red);
 draw((0,a,0)--(0,a,a),red);
