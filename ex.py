@@ -165,7 +165,7 @@ pts_inputs = Entry(f51,width=30)
 pts_inputs.pack(pady=20,ipady=3)
 #execute_button
 exec_button = Button(f51, text="Executer", width='10', font=("Helvetica",16), bg="#c972ad", fg="#FFFFFF",
-                    command=lambda:[raise_frame(f6),deff.Execute_fct2(fct_input.get(),pts_inputs.get())])
+                    command=lambda:[deff.Execute_fct2(fct_input.get(),pts_inputs.get())])
 exec_button.pack(padx=30)
 #footer_buttons
 left_button = Button(f51, text="Retourner", width='10', font=("Helvetica",16), bg="#64ffaa", fg="#FFFFFF",
@@ -181,20 +181,19 @@ label1 = Label(f52,image=test,bg="#e0dad6")
 label1.image = test
 label1.pack(side=TOP, anchor=NW)
 #spc
-spc = Label(f52, text="",bg='#e0dad6')
-spc.pack(pady=30)
+Label(f52,text="",bg="#e0dad6").pack(pady=10)
 #label
-f_label = Label(f52, text="Entrer la taille du sphére",font=("Helvetica",16), bg='#e0dad6', fg='#001d26')
-f_label.pack()
+Label(f52,text="Sélectionner les options à ajouter",font=("Helvetica",32), bg='#e0dad6', fg='#001d26').pack(pady=20)
 #input
-fct3_input = Entry(f52,width=30)
-fct3_input.pack(pady=10,ipady=3)
+CVar0 = IntVar()
+Checkbutton(f52,text="Affichage des axes X, Y et Z                            ", variable = CVar0, font=("Helvetica",8)
+            , bg='#e0dad6').pack(pady=5) 
 CVar1 = IntVar()
 imageCheck= Checkbutton(f52,text="Executer le resultat 3D sous forme d'une image", variable = CVar1, font=("Helvetica",8), bg='#e0dad6')
-imageCheck.pack(pady=10)
+imageCheck.pack(pady=5)
 #execute_button
 exec_button = Button(f52, text="Executer", width='10', font=("Helvetica",16), bg="#c972ad", fg="#FFFFFF",
-                    command=lambda:[raise_frame(f52),deff.Execute_fct3(fct3_input.get(),CVar1.get())])
+                    command=lambda:[raise_frame(f52),deff.Execute_fct3(CVar0.get(),CVar1.get())])
 exec_button.pack(padx=30)
 #spc
 spc = Label(f52, text="",bg='#e0dad6')
@@ -244,12 +243,27 @@ right_button.pack(side=RIGHT, padx=20, pady=20)
 label1 = Label(f54,image=test,bg="#e0dad6")
 label1.image = test
 label1.pack(side=TOP, anchor=NW)
-#spc
-spc = Label(f54, text="",bg='#e0dad6')
-spc.pack(pady=30)
-#spc
-spc = Label(f53, text="",bg='#e0dad6')
-spc.pack(pady=28)
+#label
+Label(f54,text="Sélectionner votre choix",font=("Helvetica",32), bg='#e0dad6', fg='#001d26').pack()
+#input
+v = IntVar()
+v.set(1)
+Options = [ ("Addition de deux vecteurs par règle de parallélogramme (3D)                  ",10),
+            ("Addition de deux vecteurs par règle de parallélogramme (2D) sous PNG",11),
+            ("Addition de deux vecteurs par règle du triangle (3D)                                  ",20),
+            ("Addition de deux vecteurs par règle du triangle (2D) sous PNG                ",21),
+            ("Multiplication de deux vecteurs (3D)                                                             ",30),
+            ("Multiplication de deux vecteurs (2D) sous PNG                                           ",31)]  
+for tex, val in Options:
+    Radiobutton(f54,bg='#e0dad6',
+                   text=tex, 
+                   variable=v, 
+                   value=val).pack(pady=5)
+
+#execute_button
+exec_button = Button(f54, text="Executer", width='10', font=("Helvetica",16), bg="#c972ad", fg="#FFFFFF",
+                    command=lambda:[deff.Execute_fct5(v.get())])
+exec_button.pack(padx=30)          
 #footer_buttons
 left_button = Button(f54, text="Retourner", width='10', font=("Helvetica",16), bg="#64ffaa", fg="#FFFFFF",
                     command=lambda:raise_frame(f4))
@@ -264,7 +278,7 @@ label1 = Label(f6,image=test,bg="#e0dad6")
 label1.image = test
 label1.pack(side=TOP, anchor=NW)
 #result_image
-img = ImageTk.PhotoImage(Image.open("Dessin.png"))
+img = ImageTk.PhotoImage(Image.open("img/logo.png"))
 label2 = Label(f6, image=img, bg="#ffffff")
 label2.pack()
 

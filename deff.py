@@ -1,6 +1,6 @@
 from tkinter.messagebox import *
 import time,os
-from tkinter import Image, Label, filedialog
+from tkinter import filedialog
 import ex
 from pynput.keyboard import Controller
 
@@ -14,10 +14,10 @@ def Download_img():
         showerror("EasyGio","Le systeme ne peut pas trouver le chemin specifie.\n\nVeuillez sélectionner un emplacement de téléchargement valider")    
 
 def IsNumeric(num):
-    if(num.isnumeric()):
+    if(num.isnumeric() and num!='0'):
         return True
     else:
-        showinfo("EasyGio","Veuillez entrer un nombre réel")    
+        showerror("EasyGio","Veuillez entrer un nombre entier")    
 
 def Get3DImg():
     keyboard= Controller()
@@ -71,13 +71,12 @@ def Execute_fct2(fct,pts):
     d.close()                  
     os.system('Dessin.asy')
     time.sleep(1) 
-    img2 = ex.ImageTk.PhotoImage(ex.Image.open("Dessin.png"))
+    img2 = ex.ImageTk.PhotoImage(ex.Image.open("Dessin.png").resize((250,250),ex.Image.ANTIALIAS))
     ex.label2.configure(image=img2)
     ex.label2.image = img2
     ex.raise_frame(ex.f6)
     
-def Execute_fct3(size,check0):
-    if(IsNumeric(size)):
+def Execute_fct3(check0,check1):
         Get3DImg()
         lines = []
         with open('functions.asy','r') as f :
@@ -86,17 +85,21 @@ def Execute_fct3(size,check0):
             count = 0
             for line in lines:
                 count +=1
-                if(count >55 and count<64): 
-                    if(count == 60):
-                        d.write(f'size({size}cm, 0);\n')
-                    else:
+                if(check0 == 1): 
+                    if(count <55 and count > 43):
                         d.write(line)
+                else:
+                    if(count <64 and count > 54):
+                        d.write(line)       
         f.close()
         d.close() 
         os.system('Dessin.asy')
-        if(check0==1):
-            time.sleep(1) 
-            img2 = ex.ImageTk.PhotoImage(ex.Image.open("Dessin.png"))
+        if(check1==1):
+            time.sleep(1)
+            if(check0 ==0):
+                img2 = ex.ImageTk.PhotoImage(ex.Image.open("Dessin.png").resize((250,250),ex.Image.ANTIALIAS))
+            else: 
+                img2 = ex.ImageTk.PhotoImage(ex.Image.open("Dessin.png"))
             ex.label2.configure(image=img2)
             ex.label2.image = img2
             ex.raise_frame(ex.f6)
@@ -110,10 +113,10 @@ def Execute_fct4(a,check):
             count = 0
             for line in lines:
                 count +=1
-                if(count >75 and count<103): 
-                    if(count == 83):
+                if(count >64 and count<90): 
+                    if(count == 70):
                         d.write(f'real a={a};')
-                    if(count == 93 or count == 96 or count == 99):
+                    if(count == 80 or count == 83 or count == 86):
                         d.write(a)
                     else:    
                         d.write(line)
@@ -121,12 +124,42 @@ def Execute_fct4(a,check):
         d.close()                  
         os.system('Dessin.asy')
         if(check==1):
-            ex.raise_frame(ex.f6)
             time.sleep(1) 
             img2 = ex.ImageTk.PhotoImage(ex.Image.open("Dessin.png"))
             ex.label2.configure(image=img2)
             ex.label2.image = img2
             ex.raise_frame(ex.f6)    
 
-
+def Execute_fct5(val):
+    lines = []
+    with open('functions.asy','r') as f :
+        lines = f.readlines()
+    with open('Dessin.asy','w') as d :
+        count = 0
+        for line in lines:
+            count +=1
+            if(val == 10 and count <105 and count>90): 
+                d.write(line)
+            if(val == 11 and count <119 and count>104):
+                d.write(line)
+                ex.raise_frame(ex.f6)
+            if(val == 20 and count <130 and count>118):
+                d.write(line)
+            if(val == 21 and count <141 and count>129):
+                d.write(line)
+                ex.raise_frame(ex.f6)
+            if(val == 30 and count <160 and count>140):
+                d.write(line) 
+            if(val == 31 and count <177 and count>159):
+                d.write(line)      
+                ex.raise_frame(ex.f6)                                
+    f.close()
+    d.close()
+    os.system('Dessin.asy')
+    time.sleep(1) 
+    img2 = ex.ImageTk.PhotoImage(ex.Image.open("Dessin.png"))
+    ex.label2.configure(image=img2)
+    ex.label2.image = img2
+    
+   
       
