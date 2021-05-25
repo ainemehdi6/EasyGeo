@@ -20,10 +20,9 @@ f51 = Frame(root,bg="#e0dad6")
 f52 = Frame(root,bg="#e0dad6")
 f53 = Frame(root,bg="#e0dad6")
 f54 = Frame(root,bg="#e0dad6")
-f55 = Frame(root,bg="#e0dad6")
 f6 = Frame(root,bg="#e0dad6")
 
-for frame in (f1, f2, f3, f4, f5,f51, f52, f53, f54, f55, f6):
+for frame in (f1, f2, f3, f4, f5,f51, f52, f53, f54, f6):
     frame.grid(row=0, column=0, sticky='news')
 
 
@@ -281,13 +280,6 @@ label1.pack(side=TOP, anchor=NW)
 img = ImageTk.PhotoImage(Image.open("img/logo.png"))
 label2 = Label(f6, image=img, bg="#ffffff")
 label2.pack()
-
-#image = Image.open("Dessin.png") 
-#photo = ImageTk.PhotoImage(Image.open("Dessin.png")) 
-#canvas = Canvas(f6, width = Image.open("Dessin.png").size[0], height = Image.open("Dessin.png").size[1]) 
-#canvas.create_image(0,0, anchor = NW, image=ImageTk.PhotoImage(Image.open("Dessin.png")))
-#canvas.pack() 
-
 #spc
 spc = Label(f6, text="",bg='#e0dad6')
 spc.pack()

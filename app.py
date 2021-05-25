@@ -5,6 +5,3 @@ raise_frame(f1)
 root.mainloop()
 
 
-
-
-

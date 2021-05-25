@@ -1,9 +1,7 @@
 from tkinter.messagebox import *
 import time,os
 from tkinter import filedialog
-import ex
-from pynput.keyboard import Controller
-
+import ex   
 
 def Download_img(): 
     b=filedialog.askdirectory()
@@ -11,22 +9,13 @@ def Download_img():
     if(os.system(f'copy /y Dessin.png {b}') == 0):
         showinfo("EasyGio","L'image a bien été téléchargé")
     else:
-        showerror("EasyGio","Le systeme ne peut pas trouver le chemin specifie.\n\nVeuillez sélectionner un emplacement de téléchargement valider")    
+        showerror("EasyGio","Le système ne peut pas trouver le chemin spécifie.\n\nVeuillez sélectionner un emplacement de téléchargement valider")    
 
 def IsNumeric(num):
     if(num.isnumeric() and num!='0'):
         return True
     else:
         showerror("EasyGio","Veuillez entrer un nombre entier")    
-
-def Get3DImg():
-    keyboard= Controller()
-    time.sleep(5)
-    keyboard.press('e')
-    keyboard.release('e')
-
-def ReloadImg():
-    ex.label2.configure(image=ex.ImageTk.PhotoImage(ex.Image.open("Dessin.png")))
 
 def Execute_fct1(fct1):
     lines = []
@@ -77,7 +66,6 @@ def Execute_fct2(fct,pts):
     ex.raise_frame(ex.f6)
     
 def Execute_fct3(check0,check1):
-        Get3DImg()
         lines = []
         with open('functions.asy','r') as f :
             lines = f.readlines()
