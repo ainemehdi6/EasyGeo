@@ -11,6 +11,9 @@ def Download_img():
     else:
         showerror("EasyGio","Le système ne peut pas trouver le chemin spécifie.\n\nVeuillez sélectionner un emplacement de téléchargement valider")    
 
+def ExportImage():
+    showinfo("EasyGio","A fin d'obtenir une image pour votre Figure \n\nVous devez appuyer sur la bouton E sur votre clavier pour exporter l'image aprés avoir sélectioner la position d'image \n\nOu vous appuyer sur la bouton Q pour exporter l'image et quitter le programme 3D")
+
 def IsNumeric(num):
     if(num.isnumeric() and num!='0'):
         return True
@@ -66,6 +69,8 @@ def Execute_fct2(fct,pts):
     ex.raise_frame(ex.f6)
     
 def Execute_fct3(check0,check1):
+        if(check1 == 1):
+            ExportImage()
         lines = []
         with open('functions.asy','r') as f :
             lines = f.readlines()
@@ -94,6 +99,8 @@ def Execute_fct3(check0,check1):
 
 def Execute_fct4(a,check):
     if(IsNumeric(a)):
+        if(check == 1):
+            ExportImage()
         lines = []
         with open('functions.asy','r') as f :
             lines = f.readlines()

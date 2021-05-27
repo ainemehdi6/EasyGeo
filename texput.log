@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=latex 2021.4.28)  25 MAY 2021 06:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=latex 2021.4.28)  27 MAY 2021 16:57
 entering extended mode
 **\scrollmode
 
@@ -165,7 +165,7 @@ LaTeX Font Info:    ... okay on input line 0.
 
 *
 (Please type a command or say `\end')
-*\setbox\ASYbox=\hbox{$\overrightarrow{u}$}
+*\setbox\ASYbox=\hbox{$o$}
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 0.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -176,10 +176,10 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 *
 (Please type a command or say `\end')
 *\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(12.0002pt)dim
+>dim(5.64853pt)dim
 
 *\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(8.56917pt)dim
+>dim(5.16667pt)dim
 
 *\immediate\write16{>dim(\the\dp\ASYbox)dim}
 >dim(0.0pt)dim
@@ -192,15 +192,17 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 *
 (Please type a command or say `\end')
-*\setbox\ASYbox=\hbox{$\overrightarrow{v}$}
+*\setbox\ASYbox=\hbox{$x=
+
+*2$}
 
 *
 (Please type a command or say `\end')
 *\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(12.0002pt)dim
+>dim(28.35733pt)dim
 
 *\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(8.56917pt)dim
+>dim(7.73332pt)dim
 
 *\immediate\write16{>dim(\the\dp\ASYbox)dim}
 >dim(0.0pt)dim
@@ -213,18 +215,20 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 *
 (Please type a command or say `\end')
-*\setbox\ASYbox=\hbox{$\overrightarrow{w}$}
+*\setbox\ASYbox=\hbox{$y=
+
+*2$}
 
 *
 (Please type a command or say `\end')
 *\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(12.0002pt)dim
+>dim(27.83995pt)dim
 
 *\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(8.56917pt)dim
+>dim(7.73332pt)dim
 
 *\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(0.0pt)dim
+>dim(2.33331pt)dim
 
 *\fontsize{12}{14.4}\selectfont%
 
@@ -234,15 +238,17 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 *
 (Please type a command or say `\end')
-*\setbox\ASYbox=\hbox{$A$}
+*\setbox\ASYbox=\hbox{$z=
+
+*2$}
 
 *
 (Please type a command or say `\end')
 *\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(8.80824pt)dim
+>dim(27.6733pt)dim
 
 *\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(8.2pt)dim
+>dim(7.73332pt)dim
 
 *\immediate\write16{>dim(\the\dp\ASYbox)dim}
 >dim(0.0pt)dim
@@ -255,15 +261,15 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 *
 (Please type a command or say `\end')
-*\setbox\ASYbox=\hbox{$B$}
+*\setbox\ASYbox=\hbox{$c$}
 
 *
 (Please type a command or say `\end')
 *\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(9.53186pt)dim
+>dim(5.05687pt)dim
 
 *\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(8.2pt)dim
+>dim(5.16667pt)dim
 
 *\immediate\write16{>dim(\the\dp\ASYbox)dim}
 >dim(0.0pt)dim
@@ -276,15 +282,15 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 *
 (Please type a command or say `\end')
-*\setbox\ASYbox=\hbox{$C$}
+*\setbox\ASYbox=\hbox{$o$}
 
 *
 (Please type a command or say `\end')
 *\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(9.26823pt)dim
+>dim(5.64853pt)dim
 
 *\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(8.2pt)dim
+>dim(5.16667pt)dim
 
 *\immediate\write16{>dim(\the\dp\ASYbox)dim}
 >dim(0.0pt)dim
@@ -297,15 +303,15 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 *
 (Please type a command or say `\end')
-*\setbox\ASYbox=\hbox{$D$}
+*\setbox\ASYbox=\hbox{$o$}
 
 *
 (Please type a command or say `\end')
 *\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(10.08214pt)dim
+>dim(5.64853pt)dim
 
 *\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(8.2pt)dim
+>dim(5.16667pt)dim
 
 *\immediate\write16{>dim(\the\dp\ASYbox)dim}
 >dim(0.0pt)dim
@@ -318,8 +324,10 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 *
 (Please type a command or say `\end')
-*\setbox\ASYbox=\hbox{$\overrightarrow{u}$}
+*\setbox\ASYbox=\hbox{$x=
+
+*2$}
 
 *
 (Please type a command or say `\end')
-*\immediate\wr
+*\immediate\write16{>dim(\the\wd\ASYbox)d

@@ -10,13 +10,13 @@ path p=graph(f,-2*pi-.5,2*pi+.5,operator ..);
 transform ec=scale(.8); 
 xaxis(ec*"$x$", Ticks(ec*Label(), NoZero), Arrow(2mm));
 yaxis(ec*"$y$", Ticks(ec*Label(), NoZero), Arrow(2mm));
-//Segment
-//pair pA=(-pi,pi);dot(pA,heavygreen);
-//draw(pA-(.8,0)--pA+(.8,0),
-//blue,Arrows(SimpleHead));
-//draw((pA.x,0)--pA,dashed+heavygreen);
-//labels
-//label("A",pA,N);
+//
+//
+//
+//
+//
+//
+//
 label("$y=
 x\cos(x)-\sin(x)
 $",(2,-5),E);
