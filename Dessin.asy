@@ -1,22 +1,15 @@
-//cube-3D
+//fonction sans derivée
 settings.outformat="png";
-import three;
-size(250);
-currentprojection=perspective(1/3,-1,1/2);
-real a=2;
-draw((0,0,0)--(a,0,0)--(a,a,0)--(0,a,0)--cycle,red);
-draw((0,0,0)--(0,0,a),red);
-draw((0,a,0)--(0,a,a),red);
-draw((a,a,0)--(a,a,a),red);
-draw((a,0,0)--(a,0,a),red);
-draw((0,0,a)--(a,0,a)--(a,a,a)--(0,a,a)--cycle,red);
-draw((0,0,0)--(a,a,a),blue);
-label("$o$",(0,0,0),NW);
-label("$x=
-2$",(a/2,0,0),S);
-label("$y=
-2$",(a,a,a/2),E);
-label("$z=
-2$",(a,a/2,0),SE);
-label("$c$",(a/2,a/2,a/2),N);
+import graph;usepackage("mathrsfs");
+size(500);Label f; f.p=fontsize(6); 
+xaxis(Ticks(f, 1.0)); yaxis(Ticks(f, 1.0)); 
+real f(real x) { return 
+exp(x+1);} 
+real minf,maxf;
+for(real i=0;i>-9;i=i-0.1){if(f(i)<8 && f(i)>-8) maxf=i;}
+for(real j=0;j<9;j=j+0.1){if(f(j)<8 && f(j)>-8) minf=j;}
+label("$f(x)=
+exp(x+1)$",(minf+1,f(minf)),E,green);
+// la courbe
+draw(graph(f,minf,maxf),green+linewidth(1));label("$\mathscr{C}_f$",(maxf-1,f(maxf)-1),green);
 

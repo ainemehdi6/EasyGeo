@@ -1,28 +1,28 @@
-//fonction
+//fonction avec derivée
 settings.outformat="png";
 import graph;usepackage("mathrsfs");
-size(250);
-real f(real x) {return 
-x*cos(x)-sin(x)
+size(500);Label f; f.p=fontsize(6); 
+xaxis(Ticks(f, 1.0)); yaxis(Ticks(f, 1.0)); 
+real f(real x) { return 
+
+;} 
+//derivée
+real g(real x) {return 
+
 ;}
-path p=graph(f,-2*pi-.5,2*pi+.5,operator ..);
-// les axes
-transform ec=scale(.8); 
-xaxis(ec*"$x$", Ticks(ec*Label(), NoZero), Arrow(2mm));
-yaxis(ec*"$y$", Ticks(ec*Label(), NoZero), Arrow(2mm));
-//
-//
-//
-//
-//
-//
-//
-label("$y=
-x\cos(x)-\sin(x)
-$",(2,-5),E);
-label("$\mathscr{C}_f$",(3,2),red);
-// la courbe
-draw(p,red);
+//limits
+real minf,maxf,ming,maxg;
+for(real i=0;i>-9;i=i-0.1){if(f(i)<8 && f(i)>-8) maxf=i;if(g(i)<8 && g(i)>-8) maxg=i;}
+for(real j=0;j<9;j=j+0.1){if(f(j)<8 && f(j)>-8) minf=j;if(g(j)<8 && g(j)>-8) ming=j;}
+label("$f'(x)=
+
+$",(minf+1,f(minf)-1),E,red);
+label("$f(x)=
+
+$",(minf+1,f(minf)),E,green);
+// les courbes
+draw(graph(f,minf,maxf),green+linewidth(1));label("$\mathscr{C}_f$",(maxf-1,f(maxf)-1),green);
+draw(graph(g,ming,maxg),red+linewidth(1));label("$\mathscr{C'}_f$",(maxg-1,g(maxg)+1),red);
 
 //fonction non definit
 settings.outformat="png";
@@ -85,7 +85,7 @@ $",(a,a,a/2),E);
 label("$z=
 
 $",(a,a/2,0),SE);
-label("$c$",(a/2,a/2,a/2),N);
+dot("$c$",(a/2,a/2,a/2),N);
 
 //vecteurs
 //Parallélogramme3D
@@ -173,3 +173,75 @@ dot("$A$",(0,0),NW);
 dot("$B$",(a,0),NE);
 dot("$C$",(0,1),SW);
 dot("$D$",(1,1),SE);
+
+
+//fonction sans derivée
+settings.outformat="png";
+import graph;usepackage("mathrsfs");
+size(500);Label f; f.p=fontsize(6); 
+xaxis(Ticks(f, 1.0)); yaxis(Ticks(f, 1.0)); 
+real f(real x) { return 
+3*x^2-1
+;} 
+real minf,maxf;
+for(real i=0;i>-9;i=i-0.1){if(f(i)<8 && f(i)>-8) maxf=i;}
+for(real j=0;j<9;j=j+0.1){if(f(j)<8 && f(j)>-8) minf=j;}
+label("$f(x)=
+3*x^2-1
+$",(minf+1,f(minf)),E,green);
+// la courbe
+draw(graph(f,minf,maxf),green+linewidth(1));label("$\mathscr{C}_f$",(maxf-1,f(maxf)-1),green);
+
+
+//fonction avec tangent
+settings.outformat="png";
+import graph;usepackage("mathrsfs");
+size(500);Label f; f.p=fontsize(6); 
+xaxis(Ticks(f, 1.0)); yaxis(Ticks(f, 1.0)); 
+real f(real x) { return 
+
+;} 
+//derivée
+real g(real x) {return 
+
+;}
+//limits
+real minf,maxf,ming,maxg;
+for(real i=0;i>-9;i=i-0.1){if(f(i)<8 && f(i)>-8) maxf=i;if(g(i)<2 && g(i)>0) maxg=i;}
+for(real j=0;j<9;j=j+0.1){if(f(j)<8 && f(j)>-8) minf=j;if(g(j)<2 && g(j)>2) ming=j;}
+label("$f'(x)=
+
+$",(minf+1,f(minf)-1),E,red);
+label("$f(x)=
+
+$",(minf+1,f(minf)),E,green);
+// les courbes
+draw(graph(f,minf,maxf),green+linewidth(1));label("$\mathscr{C}_f$",(maxf-1,f(maxf)-1),green);
+draw(graph(g,ming,maxg),red+linewidth(1));label("$\mathscr{C'}_f$",(maxg-1,g(maxg)+1),red);
+
+
+//fonction 
+settings.outformat="png";
+import graph;usepackage("mathrsfs");
+size(250);
+real f(real x) {return 
+x*cos(x)-sin(x)
+;}
+path p=graph(f,-2*pi-.5,2*pi+.5,operator ..);
+// les axes
+transform ec=scale(.8); 
+xaxis(ec*"$x$", Ticks(ec*Label(), NoZero), Arrow(2mm));
+yaxis(ec*"$y$", Ticks(ec*Label(), NoZero), Arrow(2mm));
+//tangente
+real g(real x) {return 
+
+;}
+path p=graph(f,-2*pi-.5,2*pi+.5,operator ..);label("$y=
+
+$",(2,-5),E);
+label("$y=
+x\cos(x)-\sin(x)
+$",(2,-5),E);
+label("$\mathscr{C}_f$",(3,2),red);
+// la courbe
+draw(p,red);

@@ -1,7 +1,7 @@
 from tkinter.messagebox import *
-import time,os
+import time,os,ex
 from tkinter import filedialog
-import ex   
+import sympy as sp
 
 def Download_img(): 
     b=filedialog.askdirectory()
@@ -14,13 +14,27 @@ def Download_img():
 def ExportImage():
     showinfo("EasyGio","A fin d'obtenir une image pour votre Figure \n\nVous devez appuyer sur la bouton E sur votre clavier pour exporter l'image aprés avoir sélectioner la position d'image \n\nOu vous appuyer sur la bouton Q pour exporter l'image et quitter le programme 3D")
 
+def FunctDeriv(y):
+    x= sp.Symbol('x') 
+    res=str(sp.diff(y,x))
+    res=res.replace("**","^")
+    return res
+
+def FunctDerivSec(y):
+    x= sp.Symbol('x') 
+    res=str(sp.diff(y,x,x))
+    res=res.replace("**","^")
+    return res
+
 def IsNumeric(num):
     if(num.isnumeric() and num!='0'):
         return True
     else:
         showerror("EasyGio","Veuillez entrer un nombre entier")    
 
-def Execute_fct1(fct1):
+def Execute_fct1(fct1,fct1Check):
+    y=FunctDeriv(fct1)
+    ySec=FunctDerivSec(fct1)
     lines = []
     with open('functions.asy','r') as f :
         lines = f.readlines()
@@ -28,18 +42,27 @@ def Execute_fct1(fct1):
         count = 0
         for line in lines:
             count +=1
-            if(count < 26): 
-                if(count == 6 or count == 21):
-                    d.write(fct1)
-                else:
-                    d.write(line)
+            if(fct1Check == 1):
+                if(count < 26): 
+                    if(count == 7 or count == 21):
+                        d.write(f'{fct1}')
+                    if(count == 11 or count == 18):
+                        d.write(f'{y}')   
+                    else:
+                        d.write(line)
+            else:
+                if(count < 195 and count> 177): 
+                    if(count == 184 or count == 190):
+                        d.write(f'{fct1}')  
+                    else:
+                        d.write(line)         
     f.close()
     d.close()
     if( os.system('Dessin.asy') != 0 ):
         showerror("EasyGio","Press any key to continue")
         ex.raise_frame(ex.f5)     
     time.sleep(1) 
-    img2 = ex.ImageTk.PhotoImage(ex.Image.open("Dessin.png"))
+    img2 = ex.ImageTk.PhotoImage(ex.Image.open("Dessin.png").resize((250,250),ex.Image.ANTIALIAS))
     ex.label2.configure(image=img2)
     ex.label2.image = img2
     ex.raise_frame(ex.f6)
@@ -97,7 +120,7 @@ def Execute_fct3(check0,check1):
             ex.label2.image = img2
             ex.raise_frame(ex.f6)
 
-def Execute_fct4(a,check):
+def Execute_fct4(a,check,milcheck):
     if(IsNumeric(a)):
         if(check == 1):
             ExportImage()
@@ -108,7 +131,10 @@ def Execute_fct4(a,check):
             count = 0
             for line in lines:
                 count +=1
-                if(count >64 and count<90): 
+                if(count >64 and count<90):
+                    if(milcheck == 0):
+                        if(count == 77 or count ==88):
+                            d.write('//')
                     if(count == 70):
                         d.write(f'real a={a};')
                     if(count == 80 or count == 83 or count == 86):

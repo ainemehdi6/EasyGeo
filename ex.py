@@ -123,16 +123,18 @@ label1.image = test
 label1.pack(side=TOP, anchor=NW)
 #spc
 spc = Label(f5, text="",bg='#e0dad6')
-spc.pack(pady=40)
+spc.pack(pady=15)
 #label
 f_label = Label(f5, text="Entrer la fonction x",font=("Helvetica",16), bg='#e0dad6', fg='#001d26')
 f_label.pack()
 #input
 fct1_input = Entry(f5,width=30)
 fct1_input.pack(pady=20,ipady=3)
+FctDer = IntVar()
+Checkbutton(f5,text="Afficher la courbe du fonction dérivée", variable = FctDer, font=("Helvetica",8), bg='#e0dad6').pack(pady=5)
 #execute_button
 exec_button = Button(f5, text="Executer", width='10', font=("Helvetica",16), bg="#c972ad", fg="#FFFFFF",
-                    command=lambda:[deff.Execute_fct1(fct1_input.get())])
+                    command=lambda:[deff.Execute_fct1(fct1_input.get(),FctDer.get())])
 exec_button.pack(padx=30,pady=20)
 #footer_buttons
 left_button = Button(f5, text="Retourner", width='10', font=("Helvetica",16), bg="#64ffaa", fg="#FFFFFF",
@@ -194,7 +196,7 @@ imageCheck.pack(pady=5)
 exec_button = Button(f52, text="Executer", width='10', font=("Helvetica",16), bg="#c972ad", fg="#FFFFFF",
                     command=lambda:[raise_frame(f52),deff.Execute_fct3(CVar0.get(),CVar1.get())])
 exec_button.pack(padx=30)
-#spc
+#spc 
 spc = Label(f52, text="",bg='#e0dad6')
 spc.pack(pady=18)
 #footer_buttons
@@ -212,7 +214,7 @@ label1.image = test
 label1.pack(side=TOP, anchor=NW)
 #spc
 spc = Label(f53, text="",bg='#e0dad6')
-spc.pack(pady=30)
+spc.pack(pady=10)
 #label
 f_label = Label(f53, text="Entrer la taille du cube",font=("Helvetica",16), bg='#e0dad6', fg='#001d26')
 f_label.pack()
@@ -220,11 +222,13 @@ f_label.pack()
 fct4_input = Entry(f53,width=30)
 fct4_input.pack(pady=10,ipady=3)
 CVar2 = IntVar()
-imageCheck= Checkbutton(f53,text="Executer le resultat 3D sous forme d'une image", variable = CVar2, font=("Helvetica",8), bg='#e0dad6')
-imageCheck.pack(pady=10)
+CVar3 = IntVar()
+Checkbutton(f53,text="Afficher le millieu de cube                                  ",
+             variable = CVar3, font=("Helvetica",8), bg='#e0dad6').pack(pady=10)
+Checkbutton(f53,text="Executer le resultat 3D sous forme d'une image", variable = CVar2, font=("Helvetica",8), bg='#e0dad6').pack(pady=10)
 #execute_button
 exec_button = Button(f53, text="Executer", width='10', font=("Helvetica",16), bg="#c972ad", fg="#FFFFFF",
-                    command=lambda:[raise_frame(f53),deff.Execute_fct4(fct4_input.get(),CVar2.get())])
+                    command=lambda:[raise_frame(f53),deff.Execute_fct4(fct4_input.get(),CVar2.get(),CVar3.get())])
 exec_button.pack(padx=30)
 #spc
 spc = Label(f53, text="",bg='#e0dad6')
