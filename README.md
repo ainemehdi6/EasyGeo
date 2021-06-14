@@ -4,9 +4,9 @@ EasyGio its's an application for my school project , its an application programm
 
 #    Installation
 
-Download and install the latest version of Python 3.
-Download and install the latest version of latex or any tex distrubition.
-Download and install the latest version of Asymptote.
+Download and install the latest version of Python 3.\n
+Download and install the latest version of latex or any tex distrubition.\n
+Download and install the latest version of Asymptote.\n
 
 Then do:
 
