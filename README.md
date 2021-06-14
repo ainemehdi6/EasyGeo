@@ -7,13 +7,13 @@ EasyGio its's an application for my school project , its an application programm
 Download and install the latest version of Python 3.<br>
 Download and install the latest version of latex or any tex distrubition.<br>
 Download and install the latest version of Asymptote.<br>
-
+<br>
 Then do:
-
+<br><br>
 clone https://github.com/ainemehdi6/EasyGio.git
-
+<br><br>
 pip3 install -r requirements.txt
-
+<br><br>
 python3 app.py
 
 
