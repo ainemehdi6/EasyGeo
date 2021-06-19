@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=latex 2021.4.28)  14 JUN 2021 11:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=latex 2021.4.28)  16 JUN 2021 12:54
 entering extended mode
 **\scrollmode
 
@@ -50,16 +50,6 @@ File: dvips.def 2017/06/20 v3.1d Graphics/color driver for dvips
 \Gin@req@height=\dimen139
 \Gin@req@width=\dimen140
 )
-*\usepackage{mathrsfs}
-
-*
-(C:\Users\Hp\AppData\Local\Programs\MiKTeX\tex/latex/jknappen\mathrsfs.sty
-Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
-\symrsfs=\mathgroup4
-)
-(Please type a command or say `\end')
-*
-(Please type a command or say `\end')
 *\newbox\ASYbox
 \ASYbox=\box47
 
@@ -137,8 +127,7 @@ File: l3backend-dvips.def 2021-03-18 L3 backend support: dvips
 \g__pdf_backend_annotation_int=\count188
 \g__pdf_backend_link_int=\count189
 \g__pdf_backend_link_sf_int=\count190
-)
-No file texput.aux.
+) (texput.aux)
 \openout1 = `texput.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 0.
@@ -168,71 +157,6 @@ LaTeX Font Info:    ... okay on input line 0.
 
 *\makeatother%
 
-*\fontsize{6.0225}{7.227}\selectfont%
-
-*
-(Please type a command or say `\end')
-*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
-
-*
-(Please type a command or say `\end')
-*\setbox\ASYbox=\hbox{\vphantom{$10^4$}$0$}
-LaTeX Font Info:    Calculating math sizes for size <6.0225> on input line 0.
-
-LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <4.21573> not available
-(Font)              size <5> substituted on input line 0.
-
-
-LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <3.01125> not available
-(Font)              size <5> substituted on input line 0.
-
-
-LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <4.21573> not available
-(Font)              size <5> substituted on input line 0.
-
-
-LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <3.01125> not available
-(Font)              size <5> substituted on input line 0.
-
-
-LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <4.21573> not available
-(Font)              size <5> substituted on input line 0.
-
-
-LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <3.01125> not available
-(Font)              size <5> substituted on input line 0.
-
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6.0225> on input line 0.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <4.21573> on input line 0.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <3.01125> on input line 0.
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 0.
-
-(C:\Users\Hp\AppData\Local\Programs\MiKTeX\tex/latex/jknappen\ursfs.fd
-File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
-)
-
-LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <4.21573> not available
-(Font)              size <5> substituted on input line 0.
-
-
-LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <3.01125> not available
-(Font)              size <5> substituted on input line 0.
-
-
-*
-(Please type a command or say `\end')
-*\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(3.66661pt)dim
-
-*\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(5.74002pt)dim
-
-*\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(0.0pt)dim
-
 *\fontsize{12}{14.4}\selectfont%
 
 *
@@ -241,70 +165,7 @@ LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <3.01125> not available
 
 *
 (Please type a command or say `\end')
-*\setbox\ASYbox=\hbox{}
-
-*
-(Please type a command or say `\end')
-*\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(0.0pt)dim
-
-*\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(0.0pt)dim
-
-*\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(0.0pt)dim
-
-*\fontsize{6.0225}{7.227}\selectfont%
-
-*
-(Please type a command or say `\end')
-*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
-
-*
-(Please type a command or say `\end')
-*\setbox\ASYbox=\hbox{\vphantom{$10^4$}$0$}
-
-*
-(Please type a command or say `\end')
-*\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(3.66661pt)dim
-
-*\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(5.74002pt)dim
-
-*\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(0.0pt)dim
-
-*\fontsize{6.0225}{7.227}\selectfont%
-
-*
-(Please type a command or say `\end')
-*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
-
-*
-(Please type a command or say `\end')
-*\setbox\ASYbox=\hbox{\vphantom{$10^4$}$0$}
-
-*
-(Please type a command or say `\end')
-*\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(3.66661pt)dim
-
-*\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(5.74002pt)dim
-
-*\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(0.0pt)dim
-
-*\fontsize{12}{14.4}\selectfont%
-
-*
-(Please type a command or say `\end')
-*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
-
-*
-(Please type a command or say `\end')
-*\setbox\ASYbox=\hbox{$f'(x)=
+*\setbox\ASYbox=\hbox{$\overrightarrow{BA}$}
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 0.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -312,18 +173,37 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 0.
 
-*4*x$}
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(18.3401pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(11.6025pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(0.0pt)dim
+
+*\fontsize{12}{14.4}\selectfont%
+
+*
+(Please type a command or say `\end')
+*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{$\overrightarrow{AC}$}
 
 *
 (Please type a command or say `\end')
 *\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(65.38484pt)dim
+>dim(18.07648pt)dim
 
 *\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(9.0pt)dim
+>dim(11.6025pt)dim
 
 *\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(3.0pt)dim
+>dim(0.0pt)dim
 
 *\fontsize{12}{14.4}\selectfont%
 
@@ -333,22 +213,39 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 *
 (Please type a command or say `\end')
-*\setbox\ASYbox=\hbox{$f(x)=
-
-*2*x^2
-
-*$}
+*\setbox\ASYbox=\hbox{$\overrightarrow{BC}$}
 
 *
 (Please type a command or say `\end')
 *\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(67.32935pt)dim
+>dim(18.8001pt)dim
 
 *\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(9.51027pt)dim
+>dim(11.6025pt)dim
 
 *\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(3.0pt)dim
+>dim(0.0pt)dim
+
+*\fontsize{12}{14.4}\selectfont%
+
+*
+(Please type a command or say `\end')
+*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{$A$}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(8.80824pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(8.2pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(0.0pt)dim
 
 *\fontsize{12}{14.4}\selectfont%
 
@@ -358,18 +255,39 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 *
 (Please type a command or say `\end')
-*\setbox\ASYbox=\hbox{$\mathscr{C}_f$}
+*\setbox\ASYbox=\hbox{$B$}
 
 *
 (Please type a command or say `\end')
 *\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(13.45956pt)dim
+>dim(9.53186pt)dim
 
 *\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(8.4pt)dim
+>dim(8.2pt)dim
 
 *\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(3.35555pt)dim
+>dim(0.0pt)dim
+
+*\fontsize{12}{14.4}\selectfont%
+
+*
+(Please type a command or say `\end')
+*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{$C$}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(9.26823pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(8.2pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(0.0pt)dim
 
 *\fontsize{12}{14.4}\selectfont%
 
@@ -379,335 +297,15 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 *
 (Please type a command or say `\end')
-*\setbox\ASYbox=\hbox{$\mathscr{C'}_f$}
+*\setbox\ASYbox=\hbox{$\overrightarrow{BA}$}
 
 *
 (Please type a command or say `\end')
 *\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(18.29196pt)dim
+>dim(18.3401pt)dim
 
 *\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(8.79916pt)dim
-
-*\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(3.35555pt)dim
-
-*\fontsize{6.0225}{7.227}\selectfont%
-
-*
-(Please type a command or say `\end')
-*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
-
-*
-(Please type a command or say `\end')
-*\setbox\ASYbox=\hbox{\vphantom{$10^4$}$-7$}
-
-*
-(Please type a command or say `\end')
-*\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(9.44434pt)dim
-
-*\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(5.74002pt)dim
-
-*\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(0.83331pt)dim
-
-*\setbox\ASYbox=\hbox{\vphantom{$10^4$}$-6$}
-
-*
-(Please type a command or say `\end')
-*\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(9.44434pt)dim
-
-*\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(5.74002pt)dim
-
-*\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(0.83331pt)dim
-
-*\setbox\ASYbox=\hbox{\vphantom{$10^4$}$-5$}
-
-*
-(Please type a command or say `\end')
-*\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(9.44434pt)dim
-
-*\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(5.74002pt)dim
-
-*\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(0.83331pt)dim
-
-*\setbox\ASYbox=\hbox{\vphantom{$10^4$}$-4$}
-
-*
-(Please type a command or say `\end')
-*\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(9.44434pt)dim
-
-*\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(5.74002pt)dim
-
-*\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(0.83331pt)dim
-
-*\setbox\ASYbox=\hbox{\vphantom{$10^4$}$-3$}
-
-*
-(Please type a command or say `\end')
-*\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(9.44434pt)dim
-
-*\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(5.74002pt)dim
-
-*\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(0.83331pt)dim
-
-*\setbox\ASYbox=\hbox{\vphantom{$10^4$}$-2$}
-
-*
-(Please type a command or say `\end')
-*\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(9.44434pt)dim
-
-*\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(5.74002pt)dim
-
-*\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(0.83331pt)dim
-
-*\setbox\ASYbox=\hbox{\vphantom{$10^4$}$-1$}
-
-*
-(Please type a command or say `\end')
-*\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(9.44434pt)dim
-
-*\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(5.74002pt)dim
-
-*\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(0.83331pt)dim
-
-*\setbox\ASYbox=\hbox{\vphantom{$10^4$}$0$}
-
-*
-(Please type a command or say `\end')
-*\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(3.66661pt)dim
-
-*\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(5.74002pt)dim
-
-*\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(0.0pt)dim
-
-*\setbox\ASYbox=\hbox{\vphantom{$10^4$}$1$}
-
-*
-(Please type a command or say `\end')
-*\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(3.66661pt)dim
-
-*\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(5.74002pt)dim
-
-*\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(0.0pt)dim
-
-*\setbox\ASYbox=\hbox{\vphantom{$10^4$}$2$}
-
-*
-(Please type a command or say `\end')
-*\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(3.66661pt)dim
-
-*\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(5.74002pt)dim
-
-*\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(0.0pt)dim
-
-*\setbox\ASYbox=\hbox{\vphantom{$10^4$}$3$}
-
-*
-(Please type a command or say `\end')
-*\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(3.66661pt)dim
-
-*\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(5.74002pt)dim
-
-*\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(0.0pt)dim
-
-*\setbox\ASYbox=\hbox{\vphantom{$10^4$}$4$}
-
-*
-(Please type a command or say `\end')
-*\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(3.66661pt)dim
-
-*\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(5.74002pt)dim
-
-*\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(0.0pt)dim
-
-*\setbox\ASYbox=\hbox{\vphantom{$10^4$}$5$}
-
-*
-(Please type a command or say `\end')
-*\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(3.66661pt)dim
-
-*\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(5.74002pt)dim
-
-*\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(0.0pt)dim
-
-*\setbox\ASYbox=\hbox{\vphantom{$10^4$}$6$}
-
-*
-(Please type a command or say `\end')
-*\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(3.66661pt)dim
-
-*\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(5.74002pt)dim
-
-*\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(0.0pt)dim
-
-*\setbox\ASYbox=\hbox{\vphantom{$10^4$}$7$}
-
-*
-(Please type a command or say `\end')
-*\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(3.66661pt)dim
-
-*\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(5.74002pt)dim
-
-*\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(0.0pt)dim
-
-*\setbox\ASYbox=\hbox{\vphantom{$10^4$}$-3$}
-
-*
-(Please type a command or say `\end')
-*\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(9.44434pt)dim
-
-*\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(5.74002pt)dim
-
-*\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(0.83331pt)dim
-
-*\setbox\ASYbox=\hbox{\vphantom{$10^4$}$-2$}
-
-*
-(Please type a command or say `\end')
-*\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(9.44434pt)dim
-
-*\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(5.74002pt)dim
-
-*\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(0.83331pt)dim
-
-*\setbox\ASYbox=\hbox{\vphantom{$10^4$}$-1$}
-
-*
-(Please type a command or say `\end')
-*\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(9.44434pt)dim
-
-*\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(5.74002pt)dim
-
-*\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(0.83331pt)dim
-
-*\setbox\ASYbox=\hbox{\vphantom{$10^4$}$0$}
-
-*
-(Please type a command or say `\end')
-*\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(3.66661pt)dim
-
-*\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(5.74002pt)dim
-
-*\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(0.0pt)dim
-
-*\setbox\ASYbox=\hbox{\vphantom{$10^4$}$1$}
-
-*
-(Please type a command or say `\end')
-*\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(3.66661pt)dim
-
-*\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(5.74002pt)dim
-
-*\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(0.0pt)dim
-
-*\setbox\ASYbox=\hbox{\vphantom{$10^4$}$2$}
-
-*
-(Please type a command or say `\end')
-*\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(3.66661pt)dim
-
-*\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(5.74002pt)dim
-
-*\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(0.0pt)dim
-
-*\setbox\ASYbox=\hbox{\vphantom{$10^4$}$3$}
-
-*
-(Please type a command or say `\end')
-*\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(3.66661pt)dim
-
-*\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(5.74002pt)dim
-
-*\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(0.0pt)dim
-
-*\setbox\ASYbox=\hbox{\vphantom{$10^4$}$4$}
-
-*
-(Please type a command or say `\end')
-*\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(3.66661pt)dim
-
-*\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(5.74002pt)dim
-
-*\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(0.0pt)dim
-
-*\setbox\ASYbox=\hbox{\vphantom{$10^4$}$5$}
-
-*
-(Please type a command or say `\end')
-*\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(3.66661pt)dim
-
-*\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(5.74002pt)dim
+>dim(11.6025pt)dim
 
 *\immediate\write16{>dim(\the\dp\ASYbox)dim}
 >dim(0.0pt)dim
@@ -716,65 +314,24 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 *
 (Please type a command or say `\end')
-*\setbox\ASYbox=\hbox{$f'(x)=
+*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
 
-*4*x$}
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{$\overrightarrow{BA}$}
 
 *
 (Please type a command or say `\end')
 *\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(65.38484pt)dim
+>dim(18.3401pt)dim
 
 *\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(9.0pt)dim
+>dim(11.6025pt)dim
 
 *\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(3.0pt)dim
+>dim(0.0pt)dim
 
-*\setbox\ASYbox=\hbox{$f(x)=
-
-*2*x^2
-
-*$}
-
-*
-(Please type a command or say `\end')
-*\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(67.32935pt)dim
-
-*\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(9.51027pt)dim
-
-*\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(3.0pt)dim
-
-*\setbox\ASYbox=\hbox{$\mathscr{C}_f$}
-
-*
-(Please type a command or say `\end')
-*\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(13.45956pt)dim
-
-*\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(8.4pt)dim
-
-*\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(3.35555pt)dim
-
-*\setbox\ASYbox=\hbox{$\mathscr{C'}_f$}
-
-*
-(Please type a command or say `\end')
-*\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(18.29196pt)dim
-
-*\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(8.79916pt)dim
-
-*\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(3.35555pt)dim
-
-*\fontsize{6.0225}{7.227}\selectfont%
+*\fontsize{12}{14.4}\selectfont%
 
 *
 (Please type a command or say `\end')
@@ -782,282 +339,180 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 *
 (Please type a command or say `\end')
-*\setbox\ASYbox=\hbox{\vphantom{$10^4$}$-7$}
+*\setbox\ASYbox=\hbox{$\overrightarrow{AC}$}
 
 *
 (Please type a command or say `\end')
 *\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(9.44434pt)dim
+>dim(18.07648pt)dim
 
 *\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(5.74002pt)dim
-
-*\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(0.83331pt)dim
-
-*\setbox\ASYbox=\hbox{\vphantom{$10^4$}$-6$}
-
-*
-(Please type a command or say `\end')
-*\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(9.44434pt)dim
-
-*\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(5.74002pt)dim
-
-*\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(0.83331pt)dim
-
-*\setbox\ASYbox=\hbox{\vphantom{$10^4$}$-5$}
-
-*
-(Please type a command or say `\end')
-*\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(9.44434pt)dim
-
-*\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(5.74002pt)dim
-
-*\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(0.83331pt)dim
-
-*\setbox\ASYbox=\hbox{\vphantom{$10^4$}$-4$}
-
-*
-(Please type a command or say `\end')
-*\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(9.44434pt)dim
-
-*\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(5.74002pt)dim
-
-*\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(0.83331pt)dim
-
-*\setbox\ASYbox=\hbox{\vphantom{$10^4$}$-3$}
-
-*
-(Please type a command or say `\end')
-*\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(9.44434pt)dim
-
-*\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(5.74002pt)dim
-
-*\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(0.83331pt)dim
-
-*\setbox\ASYbox=\hbox{\vphantom{$10^4$}$-2$}
-
-*
-(Please type a command or say `\end')
-*\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(9.44434pt)dim
-
-*\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(5.74002pt)dim
-
-*\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(0.83331pt)dim
-
-*\setbox\ASYbox=\hbox{\vphantom{$10^4$}$-1$}
-
-*
-(Please type a command or say `\end')
-*\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(9.44434pt)dim
-
-*\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(5.74002pt)dim
-
-*\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(0.83331pt)dim
-
-*\setbox\ASYbox=\hbox{\vphantom{$10^4$}$0$}
-
-*
-(Please type a command or say `\end')
-*\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(3.66661pt)dim
-
-*\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(5.74002pt)dim
+>dim(11.6025pt)dim
 
 *\immediate\write16{>dim(\the\dp\ASYbox)dim}
 >dim(0.0pt)dim
 
-*\setbox\ASYbox=\hbox{\vphantom{$10^4$}$1$}
+*\fontsize{12}{14.4}\selectfont%
+
+*
+(Please type a command or say `\end')
+*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{$\overrightarrow{AC}$}
 
 *
 (Please type a command or say `\end')
 *\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(3.66661pt)dim
+>dim(18.07648pt)dim
 
 *\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(5.74002pt)dim
+>dim(11.6025pt)dim
 
 *\immediate\write16{>dim(\the\dp\ASYbox)dim}
 >dim(0.0pt)dim
 
-*\setbox\ASYbox=\hbox{\vphantom{$10^4$}$2$}
+*\fontsize{12}{14.4}\selectfont%
+
+*
+(Please type a command or say `\end')
+*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{$\overrightarrow{BC}$}
 
 *
 (Please type a command or say `\end')
 *\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(3.66661pt)dim
+>dim(18.8001pt)dim
 
 *\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(5.74002pt)dim
+>dim(11.6025pt)dim
 
 *\immediate\write16{>dim(\the\dp\ASYbox)dim}
 >dim(0.0pt)dim
 
-*\setbox\ASYbox=\hbox{\vphantom{$10^4$}$3$}
+*\fontsize{12}{14.4}\selectfont%
+
+*
+(Please type a command or say `\end')
+*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{$\overrightarrow{BC}$}
 
 *
 (Please type a command or say `\end')
 *\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(3.66661pt)dim
+>dim(18.8001pt)dim
 
 *\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(5.74002pt)dim
+>dim(11.6025pt)dim
 
 *\immediate\write16{>dim(\the\dp\ASYbox)dim}
 >dim(0.0pt)dim
 
-*\setbox\ASYbox=\hbox{\vphantom{$10^4$}$4$}
+*\fontsize{12}{14.4}\selectfont%
+
+*
+(Please type a command or say `\end')
+*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{$A$}
 
 *
 (Please type a command or say `\end')
 *\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(3.66661pt)dim
+>dim(8.80824pt)dim
 
 *\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(5.74002pt)dim
+>dim(8.2pt)dim
 
 *\immediate\write16{>dim(\the\dp\ASYbox)dim}
 >dim(0.0pt)dim
 
-*\setbox\ASYbox=\hbox{\vphantom{$10^4$}$5$}
+*\fontsize{12}{14.4}\selectfont%
+
+*
+(Please type a command or say `\end')
+*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{$A$}
 
 *
 (Please type a command or say `\end')
 *\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(3.66661pt)dim
+>dim(8.80824pt)dim
 
 *\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(5.74002pt)dim
+>dim(8.2pt)dim
 
 *\immediate\write16{>dim(\the\dp\ASYbox)dim}
 >dim(0.0pt)dim
 
-*\setbox\ASYbox=\hbox{\vphantom{$10^4$}$6$}
+*\fontsize{12}{14.4}\selectfont%
+
+*
+(Please type a command or say `\end')
+*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{$B$}
 
 *
 (Please type a command or say `\end')
 *\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(3.66661pt)dim
+>dim(9.53186pt)dim
 
 *\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(5.74002pt)dim
+>dim(8.2pt)dim
 
 *\immediate\write16{>dim(\the\dp\ASYbox)dim}
 >dim(0.0pt)dim
 
-*\setbox\ASYbox=\hbox{\vphantom{$10^4$}$7$}
+*\fontsize{12}{14.4}\selectfont%
+
+*
+(Please type a command or say `\end')
+*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{$B$}
 
 *
 (Please type a command or say `\end')
 *\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(3.66661pt)dim
+>dim(9.53186pt)dim
 
 *\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(5.74002pt)dim
+>dim(8.2pt)dim
 
 *\immediate\write16{>dim(\the\dp\ASYbox)dim}
 >dim(0.0pt)dim
 
-*\setbox\ASYbox=\hbox{\vphantom{$10^4$}$-3$}
+*\fontsize{12}{14.4}\selectfont%
+
+*
+(Please type a command or say `\end')
+*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{$C$}
 
 *
 (Please type a command or say `\end')
 *\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(9.44434pt)dim
+>dim(9.26823pt)dim
 
 *\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(5.74002pt)dim
-
-*\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(0.83331pt)dim
-
-*\setbox\ASYbox=\hbox{\vphantom{$10^4$}$-2$}
-
-*
-(Please type a command or say `\end')
-*\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(9.44434pt)dim
-
-*\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(5.74002pt)dim
-
-*\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(0.83331pt)dim
-
-*\setbox\ASYbox=\hbox{\vphantom{$10^4$}$-1$}
-
-*
-(Please type a command or say `\end')
-*\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(9.44434pt)dim
-
-*\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(5.74002pt)dim
-
-*\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(0.83331pt)dim
-
-*\setbox\ASYbox=\hbox{\vphantom{$10^4$}$0$}
-
-*
-(Please type a command or say `\end')
-*\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(3.66661pt)dim
-
-*\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(5.74002pt)dim
-
-*\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(0.0pt)dim
-
-*\setbox\ASYbox=\hbox{\vphantom{$10^4$}$1$}
-
-*
-(Please type a command or say `\end')
-*\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(3.66661pt)dim
-
-*\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(5.74002pt)dim
-
-*\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(0.0pt)dim
-
-*\setbox\ASYbox=\hbox{\vphantom{$10^4$}$2$}
-
-*
-(Please type a command or say `\end')
-*\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(3.66661pt)dim
-
-*\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(5.74002pt)dim
-
-*\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(0.0pt)dim
-
-*\setbox\ASYbox=\hbox{\vphantom{$10^4$}$3$}
-
-*
-(Please type a command or say `\end')
-*\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(
+>dim(8.2pt

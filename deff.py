@@ -1,16 +1,18 @@
+from tkinter.messagebox import *
 import time,os,ex
+from tkinter import filedialog
 import sympy as sp
 
 def Download_img(): 
     b=filedialog.askdirectory()
     b=b.replace("/", "\\")
     if(os.system(f'copy /y Dessin.png {b}') == 0):
-        messagebox.showinfo("EasyGio","L'image a bien été téléchargé")
+        showinfo("EasyGio","L'image a bien été téléchargé")
     else:
-        messagebox.showerror("EasyGio","Le système ne peut pas trouver le chemin spécifie.\n\nVeuillez sélectionner un emplacement de téléchargement valider")    
+        showerror("EasyGio","Le système ne peut pas trouver le chemin spécifie.\n\nVeuillez sélectionner un emplacement de téléchargement valider")    
 
 def ExportImage():
-    messagebox.showinfo("EasyGio","A fin d'obtenir une image pour votre Figure \n\nVous devez appuyer sur la bouton E sur votre clavier pour exporter l'image aprés avoir sélectioner la position d'image \n\nOu vous appuyer sur la bouton Q pour exporter l'image et quitter le programme 3D")
+    showinfo("EasyGio","A fin d'obtenir une image pour votre Figure \n\nVous devez appuyer sur la bouton E sur votre clavier pour exporter l'image aprés avoir sélectioner la position d'image \n\nOu vous appuyer sur la bouton Q pour exporter l'image et quitter le programme 3D")
 
 def FunctDeriv(y):
     x= sp.Symbol('x') 
@@ -22,7 +24,7 @@ def IsNumeric(num):
     if(num.isnumeric() and num!='0'):
         return True
     else:
-        messagebox.showerror("EasyGio","Veuillez entrer un nombre entier")    
+        showerror("EasyGio","Veuillez entrer un nombre entier")    
 
 def Execute_fct1(fct1,fct1Check):
     y=FunctDeriv(fct1)
