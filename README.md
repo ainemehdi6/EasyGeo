@@ -1,6 +1,6 @@
-# EasyGio
+# EasyGeo
  
-EasyGio its's an application for my school project , its an application programmed with asymptote language for drawing Geometric shapes and with python using Tkinter for the application design
+EasyGeo its's an application for my school project , its an application programmed with asymptote language for drawing Geometric shapes and with python using Tkinter for the application design
 
 #    Installation
 
@@ -10,7 +10,7 @@ Download and install the latest version of Asymptote.<br>
 <br>
 Then do:
 <br><br>
-clone https://github.com/ainemehdi6/EasyGio.git
+clone https://github.com/ainemehdi6/EasyGeo.git
 <br><br>
 pip3 install -r requirements.txt
 <br><br>
