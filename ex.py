@@ -6,7 +6,7 @@ def raise_frame(frame):
     frame.tkraise()
 
 root = Tk()
-root.title("EasyGio")
+root.title("EasyGeo")
 root.geometry("800x550")
 root.iconbitmap("img/logoOnly.ico")
 root.config(background="#e0dad6")
@@ -34,7 +34,7 @@ label1 = Label(f1,image=test,bg="#e0dad6")
 label1.image = test
 label1.pack(side=TOP, anchor=NW)
 #title
-label_title = Label(f1, text="Bienvenue sur EasyGio",font=("Helvetica",42), bg='#e0dad6', fg='#001d26')
+label_title = Label(f1, text="Bienvenue sur EasyGeo",font=("Helvetica",42), bg='#e0dad6', fg='#001d26')
 label_title.pack(padx=60,pady=70)
 #main_button
 main_button = Button(f1, text="Démarrer", width='10',font=("Helvetica",16), bg="#c972ad", fg="#FFFFFF",

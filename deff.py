@@ -7,12 +7,12 @@ def Download_img():
     b=filedialog.askdirectory()
     b=b.replace("/", "\\")
     if(os.system(f'copy /y Dessin.png {b}') == 0):
-        showinfo("EasyGio","L'image a bien été téléchargé")
+        showinfo("EasyGeo","L'image a bien été téléchargé")
     else:
-        showerror("EasyGio","Le système ne peut pas trouver le chemin spécifie.\n\nVeuillez sélectionner un emplacement de téléchargement valider")    
+        showerror("EasyGeo","Le système ne peut pas trouver le chemin spécifie.\n\nVeuillez sélectionner un emplacement de téléchargement valider")    
 
 def ExportImage():
-    showinfo("EasyGio","A fin d'obtenir une image pour votre Figure \n\nVous devez appuyer sur la bouton E sur votre clavier pour exporter l'image aprés avoir sélectioner la position d'image \n\nOu vous appuyer sur la bouton Q pour exporter l'image et quitter le programme 3D")
+    showinfo("EasyGeo","A fin d'obtenir une image pour votre Figure \n\nVous devez appuyer sur la bouton E sur votre clavier pour exporter l'image aprés avoir sélectioner la position d'image \n\nOu vous appuyer sur la bouton Q pour exporter l'image et quitter le programme 3D")
 
 def FunctDeriv(y):
     x= sp.Symbol('x') 
@@ -24,7 +24,7 @@ def IsNumeric(num):
     if(num.isnumeric() and num!='0'):
         return True
     else:
-        showerror("EasyGio","Veuillez entrer un nombre entier")    
+        showerror("EasyGeo","Veuillez entrer un nombre entier")    
 
 def Execute_fct1(fct1,fct1Check):
     y=FunctDeriv(fct1)
@@ -52,7 +52,7 @@ def Execute_fct1(fct1,fct1Check):
     f.close()
     d.close()
     if( os.system('Dessin.asy') != 0 ):
-        showerror("EasyGio","Press any key to continue")
+        showerror("EasyGeo","Press any key to continue")
         ex.raise_frame(ex.f5)     
     time.sleep(1) 
     img2 = ex.ImageTk.PhotoImage(ex.Image.open("Dessin.png").resize((250,250),ex.Image.ANTIALIAS))
